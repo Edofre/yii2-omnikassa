@@ -16,5 +16,10 @@
       "name": "Edo Freriks",
       "email": "edofre@gmail.com"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "edofre\\omnikassa\\": ""
+    }
+  }
 }
