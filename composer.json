@@ -2,11 +2,11 @@
   "name": "edofre/yii2-omnikassa",
   "description": "Yii2 component for Rabobank omnikassa payments",
   "require": {
-    "php": ">=5.5.0",
+    "php": ">=5.5.0"
   },
   "keywords": [
     "omnikassa",
-    "rabobank",
+    "rabobank"
   ],
   "homepage": "https://github.com/edofre/yii2-omnikassa",
   "type": "yii2-extension",
@@ -14,7 +14,7 @@
   "authors": [
     {
       "name": "Edo Freriks",
-      "email": "edofre@gmail.com",
+      "email": "edofre@gmail.com"
     }
   ]
 }
