@@ -29,7 +29,6 @@ return [
 			'class'                => '\edofre\omnikassa\OmniKassa',
 			'automaticResponse'    => false,
 			'currencyCode'         => '978',
-			'customerLanguage'     => 'NL',
 			'interfaceVersion'     => 'HP_1.0',
 			'keyVersion'           => '1',
 			'merchantId'           => '002020000000001',
