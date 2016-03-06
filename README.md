@@ -20,7 +20,7 @@ to the ```require``` section of your `composer.json` file.
 
 ## Usage
 
-### Add the components to the configuration
+### Add the components to the configuration, the following configuration is the test environment for omnikassa
 ```php
 return [
 	...
@@ -46,13 +46,15 @@ return [
 ### Create the PaymentRequest object and create a form
 ```php
 $paymentRequest = new \edofre\omnikassa\PaymentRequest([
-	'amount'               => 12354,
-	'orderId'              => '123456789',
+	'amount'               => 12354, // Amount in cents, 12345 = 123,45
+	'orderId'              => 'your-order-id',
 	'normalReturnUrl'      => \yii\helpers\Url::to(['site/return'], true),
-	'transactionReference' => uniqid(),
+	'transactionReference' => "your-transaction-reference",
 ]);
-Yii::$app->omniKassa->prepareRequest($paymentRequest)
+Yii::$app->omniKassa->prepareRequest($paymentRequest);
+```
 
+```HTML+PHP
 <form method="post" action="<?= Yii::$app->omniKassa->url ?>">
 	<input type="hidden" name="Data" value="<?= Yii::$app->omniKassa->dataField ?>">
 	<input type="hidden" name="InterfaceVersion" value="<?= Yii::$app->omniKassa->interfaceVersion ?>">
