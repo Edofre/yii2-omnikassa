@@ -2,11 +2,18 @@ Change Log: `yii2-omnikassa`
 ============================
 
 
+## Version 1.0.3
+
+**Date:** 15-Mar-2016
+
+- New license agreement
+
+
 ## Version 1.0.2
 
 **Date:** 06-Mar-2016
 
-- Updated README.md 
+- Updated README.md
 
 
 ## Version 1.0.1

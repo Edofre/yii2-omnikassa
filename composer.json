@@ -10,7 +10,7 @@
   ],
   "homepage": "https://github.com/edofre/yii2-omnikassa",
   "type": "yii2-extension",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "authors": [
     {
       "name": "Edo Freriks",
