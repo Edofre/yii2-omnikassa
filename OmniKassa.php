@@ -11,17 +11,17 @@ class OmniKassa extends \yii\base\Component
 {
 	/**
 	 * Basic constants that determine the status of the transaction.
-	 * All other statusses will be handled as failures
+	 * All other statuses will be handled as failures
 	 */
 	const STATUS_SUCCESSFUL = '00';
 	const STATUS_AWAITING_STATUS_REPORT = '60';
 
+	/** @var   */
 	public $dataField;
+	/** @var   */
 	public $seal;
-
 	/** @var  bool */
 	private $automaticResponse = false;
-
 	/**
 	 * @var  string
 	 *
@@ -38,7 +38,6 @@ class OmniKassa extends \yii\base\Component
 	 * Danish Crown = 208
 	 */
 	private $currencyCode = '978';
-
 	/**
 	 * @var  string
 	 *
@@ -57,16 +56,12 @@ class OmniKassa extends \yii\base\Component
 	 * in the language (setting) of the browser your customer is using at that time
 	 */
 	private $customerLanguage;
-
 	/** @var  string The version of the */
 	private $interfaceVersion = 'HP_1.0';
-
 	/** @var  string */
 	private $keyVersion = 1;
-
 	/** @var  string Identity of the merchant/webshop */
 	private $merchantId = '002020000000001';
-
 	/**
 	 * @var  string
 	 *
@@ -83,16 +78,16 @@ class OmniKassa extends \yii\base\Component
 	 * REMBOURS (cash on delivery)
 	 */
 	private $paymentMeanBrandList = 'IDEAL, VISA, MASTERCARD, MAESTRO, VPAY, BCMC, MINITIX, INCASSO. ACCEPTGIRO, REMBOURS';
-
 	/** @var  string */
 	private $secretKey = '002020000000001_KEY1';
-
 	/** @var  bool */
 	private $testMode = true;
-
 	/** @var  string */
 	private $url = 'https://payment-webinit.simu.omnikassa.rabobank.nl/paymentServlet';
 
+	/**
+	 * @throws \yii\base\InvalidConfigException
+	 */
 	public function init()
 	{
 		parent::init();
@@ -116,7 +111,6 @@ class OmniKassa extends \yii\base\Component
 	{
 		// Make sure we have a valid PaymentRequest
 		if ($paymentRequest->validate()) {
-
 			// Prepare the data so we can create a seal
 			$data = [
 				'amount'               => $paymentRequest->amount,

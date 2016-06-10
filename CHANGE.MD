@@ -1,6 +1,13 @@
 Change Log: `yii2-omnikassa`
 ============================
 
+## Version 1.0.4
+
+**Date:** 11-Jun-2016
+
+- Formatting fixes
+- Spelling mistakes
+
 
 ## Version 1.0.3
 
