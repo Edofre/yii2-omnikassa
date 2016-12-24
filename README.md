@@ -7,13 +7,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require edofre/yii2-omnikassa "@dev"
+$ php composer.phar require edofre/yii2-omnikassa "V1.0.5"
 ```
 
 or add
 
 ```
-"edofre/yii2-omnikassa": "@dev"
+"edofre/yii2-omnikassa": "V1.0.5"
 ```
 
 to the ```require``` section of your `composer.json` file.
