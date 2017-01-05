@@ -1,6 +1,13 @@
 Change Log: `yii2-omnikassa`
 ============================
 
+## Version 1.0.5
+
+**Date:** 24-Dec-2016
+
+- Formatting update
+- Moved files to src dir
+
 ## Version 1.0.4
 
 **Date:** 11-Jun-2016
@@ -8,13 +15,11 @@ Change Log: `yii2-omnikassa`
 - Formatting fixes
 - Spelling mistakes
 
-
 ## Version 1.0.3
 
 **Date:** 15-Mar-2016
 
 - New license agreement
-
 
 ## Version 1.0.2
 
@@ -22,14 +27,12 @@ Change Log: `yii2-omnikassa`
 
 - Updated README.md
 
-
 ## Version 1.0.1
 
 **Date:** 28-Feb-2016
 
 - Removed language from README.md example
 - Testing GitHub packagist webhook
-
 
 ## Version 1.0.0
 
