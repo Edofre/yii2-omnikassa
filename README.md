@@ -1,5 +1,11 @@
 # Yii2 omnikassa component
 
+[![Latest Stable Version](https://poser.pugx.org/edofre/yii2-omnikassa/v/stable)](https://packagist.org/packages/edofre/yii2-omnikassa)
+[![Total Downloads](https://poser.pugx.org/edofre/yii2-omnikassa/downloads)](https://packagist.org/packages/edofre/yii2-omnikassa)
+[![Latest Unstable Version](https://poser.pugx.org/edofre/yii2-omnikassa/v/unstable)](https://packagist.org/packages/edofre/yii2-omnikassa)
+[![License](https://poser.pugx.org/edofre/yii2-omnikassa/license)](https://packagist.org/packages/edofre/yii2-omnikassa)
+[![composer.lock](https://poser.pugx.org/edofre/yii2-omnikassa/composerlock)](https://packagist.org/packages/edofre/yii2-omnikassa)
+
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
